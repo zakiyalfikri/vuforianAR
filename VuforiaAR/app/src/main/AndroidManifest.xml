@@ -20,6 +20,18 @@
             android:name="com.example.app.AboutActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.example.app.ImageTargets.ImageTargets"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.app.ImageTargets.AboutScreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.app.ImageTargets.ActivitySplashScreen"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>
