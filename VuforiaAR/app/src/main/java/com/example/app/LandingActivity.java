@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.app.ImageTargets.ActivitySplashScreen;
+
 public class LandingActivity extends Activity {
 
 
@@ -19,7 +21,7 @@ public class LandingActivity extends Activity {
         imageTargetButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LandingActivity.this,AboutActivity.class );
+                Intent intent = new Intent(LandingActivity.this,ActivitySplashScreen.class );
                 startActivity(intent);
             }
         });

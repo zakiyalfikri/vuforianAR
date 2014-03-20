@@ -50,7 +50,7 @@ public class ActivitySplashScreen extends Activity
                 
                 Intent intent = new Intent(ActivitySplashScreen.this,
                     AboutScreen.class);
-                intent.putExtra("ACTIVITY_TO_LAUNCH", "ImageTargets");
+                intent.putExtra("ACTIVITY_TO_LAUNCH", "ImageTargets.ImageTargets");
                 intent.putExtra("ABOUT_TEXT_TITLE", "Image Targets");
                 intent.putExtra("ABOUT_TEXT", "IT_about.html");// TODO
                 startActivity(intent);
