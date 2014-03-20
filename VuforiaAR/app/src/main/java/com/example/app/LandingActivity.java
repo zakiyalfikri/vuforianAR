@@ -19,7 +19,7 @@ public class LandingActivity extends Activity {
         imageTargetButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LandingActivity.this, );
+                Intent intent = new Intent(LandingActivity.this,AboutActivity.class );
                 startActivity(intent);
             }
         });
